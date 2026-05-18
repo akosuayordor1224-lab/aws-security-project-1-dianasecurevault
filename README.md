@@ -22,7 +22,18 @@ Used AWS IAM + S3 to enforce **Least Privilege Access** across 3 departments:
 - **AWS Well-Architected Framework** — Security Pillar implementation
 
 ## Project Cost
-₦0/month — Built entirely on AWS Free Tier using S3 Standard + IAM (always free)
+₦0/month — Built entirely on AWS Free Tier using S3 Standard + IAM (always free)## Project Cost
+
+**Total Cost: ₦0 / $0.00 USD**
+
+This project uses 100% AWS Free Tier services:
+| Service | Free Tier Limit | Used in Project | Cost |
+| --- | --- | --- | --- |
+| Amazon S3 | 5GB storage | <1MB for JSON policies | $0 |
+| AWS IAM | Unlimited users/groups/policies | 3 policies, 3 groups | $0 |
+| Data Transfer | 1GB out/month | 0GB | $0 |
+
+**Key Skill Demonstrated:** Building secure cloud architecture with zero billing risk. Critical for FinTech and startup roles in Lagos.
 
 ## Skills Demonstrated
 1. Writing JSON IAM Policies for granular permissions
