@@ -4,7 +4,12 @@
     {
       "Effect": "Allow",
       "Action": "s3:PutObject",
-      "Resource": "arn:aws:s3:::diana-securevault/submissions/*"
+      "Resource": "arn:aws:s3:::diana-securevault/submissions/*",
+      "Condition": {
+        "NumericLessThanEquals": {
+          "s3:content-length": "10485760"
+        }
+      }
     }
   ]
 }
